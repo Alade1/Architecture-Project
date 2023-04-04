@@ -1,0 +1,41 @@
+:root {
+    /* Colors */
+    --main-theme-bg: #e5e5e5;
+    --main-footer-bg: #2c2c2c;
+    --main-theme-text:#000000;  
+    --btn-bg: #333;
+    --body-fonts: font-family: 'Old Standard TT', serif;
+}
+
+
+
+/*nav section*/
+
+.logo{
+    padding-left: 6rem;
+    object-fit: cover;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    list-style-type: none;
+    padding-right: 12rem;
+    
+}
+ul,li,a {
+     text-decoration: none;
+     font-family: var(--body-fonts);
+     color: var(--main-theme-text);
+
+}
+
+ul, li {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 60px;  
+}

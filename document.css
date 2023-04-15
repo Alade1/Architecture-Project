@@ -169,7 +169,7 @@ font-family: var(--body-fonts);
    gap: 20px;
 }
 .document-container{
-    padding-left: 2rem;
+    padding-left: 1rem;
  
 }
 .document-container h1:nth-child(1){

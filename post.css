@@ -206,18 +206,15 @@ font-family: var(--body-fonts);
     .post-details{
         display: flex;
         flex-direction: column;
-        gap: 50px;
-        padding-left: 1rem;
     }
     .post-image{
-        height: 200px;
-        width:250px;
+        height: 400px;
+        width:14%;
     }
     .post-other-details{
         background-color: #fbfbfb;
-        height: 300px;
-        width: 350px;
-        padding-left:20px;
+       
+       
     }
     .btn-post-details{
     width: 90px;
@@ -263,9 +260,7 @@ font-family: var(--body-fonts);
         line-height: 50px;
         color: #333333; 
     }
-    .post-container,.post-container-2{
-        padding-left: 2rem;
-    }
+   
     footer{
         background-color: #2c2c2c;
         color:#fff;

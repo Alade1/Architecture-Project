@@ -431,6 +431,7 @@ font-family: var(--body-fonts);
     .logo{
         padding-left: 1rem;
     }
+    
     ul{
         display: none;
     }
@@ -439,7 +440,8 @@ font-family: var(--body-fonts);
         display: grid;
         grid-template-columns: 1fr;
         gap: 10px;
-        padding: 1rem; 
+        padding-left: 1rem; 
+
     }
     .icon{
        display: none;
@@ -480,7 +482,7 @@ font-family: var(--body-fonts);
     }
     .hero-image{
         height: 400px;
-        width: 100%;
+        width: 180%;
         margin-top: 30px;
        
     }
@@ -494,8 +496,8 @@ font-family: var(--body-fonts);
         bottom:0;
     }
     .images-1{
-        display: grid;
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
         gap:20px;
     
     }
@@ -541,7 +543,7 @@ font-family: var(--body-fonts);
         margin-top: 20px;
     }
     .first-image,.secondimage{
-        height: 600px;
+        height: 400px;
         width: 100%;
     }
     .images-words{
@@ -587,10 +589,9 @@ font-family: var(--body-fonts);
     font-family: var(--body-fonts);
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 25px;
-    text-align: justify;
-    
+
     }
     .images {
         margin-bottom: 20px;
@@ -654,7 +655,7 @@ font-family: var(--body-fonts);
     }
     .more-images-image{
         height: 400px;
-        width: 120%;
+        width: 190%;
     }
     .form-section{
         display: flex;
@@ -670,14 +671,15 @@ font-family: var(--body-fonts);
      font-family: var(--body-fonts);
      color:#BDBDBD;
      }
+     
 
      .form{
          background-color: white;
          width: 110%;
-         margin-left: 1rem;
+         padding-left: 1rem;
      }
      .input-message{
-       width: 100%;
+       width: 180%;
        height: 50px;
        background: #F3F3F3;
        padding-left: 5px;
@@ -689,7 +691,7 @@ font-family: var(--body-fonts);
          width: 100%
      }
      .text-area{
-         width: 100%;
+         width: 180%;
          background-color: #F3F3F3;
      
      }

@@ -264,7 +264,7 @@ font-family: var(--body-fonts);
     }
     .google-image{
         height: 501px;
-        width:800px;
+        width: 100%;
         
     }
     .location-map{
